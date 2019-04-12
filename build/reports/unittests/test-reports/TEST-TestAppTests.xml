@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite errors="0" failures="0" hostname="EN410040.local" name="TestAppTests" tests="2" time="0.378" timestamp="2019-04-12 10:48:22 +0300"><testcase classname='TestAppTests' name='testExample' time='0.003' />
+<testcase classname='TestAppTests' name='testPerformanceExample' time='0.374' />
+</testsuite>

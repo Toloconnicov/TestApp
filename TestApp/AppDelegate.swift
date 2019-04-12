@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TestApp
 //
-//  Created by Valeria Toloconnicov on 4/9/19.
+//  Created by Valeria Toloconnicov on 4/11/19.
 //  Copyright © 2019 Endava. All rights reserved.
 //
 
@@ -12,7 +12,6 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -41,6 +40,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
 }
-

@@ -1,23 +1,51 @@
-# This file contains the fastlane.tools configuration
-# You can find the documentation at https://docs.fastlane.tools
-#
-# For a list of all available actions, check out
-#
-#     https://docs.fastlane.tools/actions
-#
-# For a list of all available plugins, check out
-#
-#     https://docs.fastlane.tools/plugins/available-plugins
-#
-
-# Uncomment the line if you want fastlane to automatically update itself
-# update_fastlane
-
 default_platform(:ios)
 
 platform :ios do
-  desc "Description of what the lane does"
-  lane :custom_lane do
-    # add actions here: https://docs.fastlane.tools/actions
-  end
+	before_all do
+    	en_ci_utils_init
+    end
+
+	lane :build do
+		update_app_identifier
+		disable_automatic_code_signing
+		en_setup_keychain
+		set_build_number
+		match
+		gym
+		#crashlytics
+		publish
+	end
+  
+  	 lane :test do
+  	 	scan(code_coverage: true)
+    	slather
+	  end
+
+	lane :create_sonar_reports do
+	   	test
+		en_create_sonar_reports
+	 end
+
+   	private_lane :set_build_number do
+    	increment_build_number(
+    	    build_number: en_build_number
+   	 	)
+ 	 end
+
+  	private_lane :publish do
+    	if ENV['GYM_EXPORT_METHOD'] == "app-store"
+     		 produce # create the app in App Store if it doesn't exist
+     		 pilot
+  	  	else
+   	   		# crashlytics # disabled because the fabric account is not created
+   		 end
+ 	 end
+
+	after_all do |lane|
+		en_remove_keychain
+	end
+ 
+	error do |lane, exception|
+		en_remove_keychain
+	end
 end

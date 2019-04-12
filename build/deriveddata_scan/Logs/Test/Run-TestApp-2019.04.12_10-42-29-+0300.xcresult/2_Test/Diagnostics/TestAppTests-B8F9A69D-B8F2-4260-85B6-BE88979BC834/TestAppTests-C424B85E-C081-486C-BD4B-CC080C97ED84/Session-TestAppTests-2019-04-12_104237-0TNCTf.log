@@ -1,0 +1,1660 @@
+10:42:37.523 xcodebuild[96143:1340703] Beginning test session TestAppTests-8DBF428A-B480-42A4-A008-9C9727758975 at 2019-04-12 10:42:37.523 with Xcode 10B61 on target <DVTiPhoneSimulator: 0x7fc19e258960> {
+		SimDevice: iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Shutdown)
+} (12.1 (16B91))
+10:42:37.524 xcodebuild[96143:1340703] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+-scheme
+TestApp
+-project
+TestApp.xcodeproj
+-configuration
+Debug
+-destination
+platform=iOS Simulator,id=BD62EA9D-2262-46E5-B16F-933B9E214BBA
+-derivedDataPath
+./build/deriveddata_scan
+-enableCodeCoverage
+YES
+COMPILER_INDEX_STORE_ENABLE=NO
+build
+test
+10:42:37.524 xcodebuild[96143:1340703] Launching with Xcode.IDEFoundation.Launcher.PosixSpawn
+10:42:37.526 xcodebuild[96143:1340703] Test standard output and standard error is at /Users/vtoloconnicov/TestApp/build/deriveddata_scan/Logs/Test/Run-TestApp-2019.04.12_10-42-29-+0300.xcresult/2_Test/Diagnostics/TestAppTests-B8F9A69D-B8F2-4260-85B6-BE88979BC834/TestAppTests-C424B85E-C081-486C-BD4B-CC080C97ED84/StandardOutputAndStandardError.txt
+10:42:37.534 xcodebuild[96143:1340703] Setting up test runner session
+10:42:37.536 xcodebuild[96143:1340703] Launch session started.
+10:42:37.585 xcodebuild[96143:1340703] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Received sim device notification: {
+    notification = "availableDevices_changed";
+}
+10:42:37.585 xcodebuild[96143:1340703] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Received sim device notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.585 xcodebuild[96143:1341199] Got a sim device notification for iPhone 5s: {
+    notification = "availableDevices_changed";
+}
+10:42:37.586 xcodebuild[96143:1341199] Got a sim device notification for iPhone 5s: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.586 xcodebuild[96143:1341199] Sim iPhone 5s state changed to 2
+10:42:37.591 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.591 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.591 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.591 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.592 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.592 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.592 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.592 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.592 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.592 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.593 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.593 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.593 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.593 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.593 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.593 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.593 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.594 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.594 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.594 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.594 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.594 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.595 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.595 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.595 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.595 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.595 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.595 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.595 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.595 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.595 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.595 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.595 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.595 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.596 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.596 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.596 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.596 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.596 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.596 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.596 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.596 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.596 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.596 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.598 xcodebuild[96143:1341205] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:42:37.598 xcodebuild[96143:1340703] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.598 xcodebuild[96143:1341205] Got a sim device notification for iPhone 5s: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.603 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.603 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.603 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.603 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.603 xcodebuild[96143:1341205] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.603 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.604 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.604 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.604 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.611 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.611 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.611 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.611 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.611 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.611 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.611 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.612 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.612 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.612 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.612 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.612 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.612 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.612 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.612 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.612 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.612 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.612 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.613 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.613 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.613 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.613 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.613 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.613 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.613 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.613 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.613 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.613 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.613 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.613 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.614 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.614 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.614 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.614 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.614 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.614 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 0.000000, isTerminal = 1, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booting)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:37.756 xcodebuild[96143:1340703] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Received sim device notification: {
+    notification = "availableDevices_changed";
+}
+10:42:37.763 xcodebuild[96143:1340703] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Received sim device notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.765 xcodebuild[96143:1341198] 📱<DVTiPhoneSimulator (0x7fc19e258960), iPhone 5s, unknown class, 12.1 (16B91), BD62EA9D-2262-46E5-B16F-933B9E214BBA> simulator was claimed by LaunchSessionClaim_0x7fc19e273ea0
+10:42:37.769 xcodebuild[96143:1341196] 📱<DVTiPhoneSimulator (0x7fc19e258960), iPhone 5s, unknown class, 12.1 (16B91), BD62EA9D-2262-46E5-B16F-933B9E214BBA> simulator was claimed by LaunchSessionClaim_0x7fc19e273ea0
+10:42:37.769 xcodebuild[96143:1341196] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Registered for sim device notification, got token 8
+10:42:37.770 xcodebuild[96143:1341196] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Unregistering for sim device notification with token 8
+10:42:37.771 xcodebuild[96143:1341196] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Installing app at path: /Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator/TestApp.app and options: (null)
+10:42:37.974 xcodebuild[96143:1341206] Got a sim device notification for iPhone 5s: {
+    notification = "availableDevices_changed";
+}
+10:42:37.975 xcodebuild[96143:1341206] Got a sim device notification for iPhone 5s: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.975 xcodebuild[96143:1341206] Sim iPhone 5s state changed to 3
+10:42:37.975 xcodebuild[96143:1341206] Sim iPhone 5s: Unregistering for sim device notification with token 5
+10:42:37.975 xcodebuild[96143:1341206] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+10:42:37.980 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.980 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.980 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.980 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.980 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.980 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.980 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.980 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.980 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.981 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.981 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.981 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.981 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.981 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.981 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.981 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.981 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.981 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.981 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.981 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.981 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.981 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.982 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.982 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.982 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.982 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.982 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.982 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.982 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.982 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.982 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.982 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.982 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.982 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.983 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.983 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.983 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.983 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.983 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.983 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.983 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.983 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.983 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:37.983 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:38.003 xcodebuild[96143:1341205] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:42:38.019 xcodebuild[96143:1341206] Sim iPhone 5s has testmanagerd socket at /private/tmp/com.apple.launchd.4urJKPtqKV/com.apple.testmanagerd.unix-domain.socket
+10:42:38.019 xcodebuild[96143:1341206] Validating test connection socket path (/private/tmp/com.apple.launchd.4urJKPtqKV/com.apple.testmanagerd.unix-domain.socket)
+10:42:38.019 xcodebuild[96143:1341206] Constructing transport for test connection socket
+10:42:38.020 xcodebuild[96143:1341206] Connected socket 29 to testmanagerd for Sim iPhone 5s
+10:42:38.021 xcodebuild[96143:1341198] Received connection for test runner session
+10:42:38.021 xcodebuild[96143:1341198] Listening for proxy connection request from the test bundle
+10:42:38.021 xcodebuild[96143:1340703] Test runner session acquired connection.
+10:42:38.021 xcodebuild[96143:1340703] Waiting for test process to launch.
+10:42:38.022 xcodebuild[96143:1341198] Initiating session with identifier: 8DBF428A-B480-42A4-A008-9C9727758975
+10:42:40.169 xcodebuild[96143:1340703] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.169 xcodebuild[96143:1341199] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.169 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.169 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.169 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.170 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.170 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.170 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.170 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.170 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.170 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.170 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.170 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.170 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.171 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.171 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.171 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.171 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.171 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.171 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.171 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.171 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.171 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.171 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.172 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.172 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.172 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.172 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.172 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.172 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.172 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.172 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.172 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.173 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.173 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.173 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.173 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.173 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.173 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.173 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.173 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.173 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.174 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.174 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.174 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:40.174 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 0 (Booting), elapsed = 0.000000, isTerminal = 0, info = (null) }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:57.243 xcodebuild[96143:1341196] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Installed app at path: /Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator/TestApp.app and options: (null)
+10:42:57.244 xcodebuild[96143:1341196] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Registered for sim device notification, got token 10
+10:42:57.244 xcodebuild[96143:1341251] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Unregistering for sim device notification with token 10
+10:42:58.224 xcodebuild[96143:1340703] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.224 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.224 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.224 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.224 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.225 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.225 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.225 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.225 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.225 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.225 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.225 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.226 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.226 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.226 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.226 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.226 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.226 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.226 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.227 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.227 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.227 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.227 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.227 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.227 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.227 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.228 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.226 xcodebuild[96143:1341251] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.228 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.228 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.228 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.228 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.228 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.228 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.228 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.229 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.229 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.229 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.229 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.229 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.229 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.229 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.230 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.230 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.230 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:58.230 xcodebuild[96143:1340703] /Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "SimDeviceBootInfo { status = 4294967295 (Finished), elapsed = 20.000000, isTerminal = 1, info = {\n    DataMigrationElapsedTime = \"0.7363430261611938\";\n    DataMigrationPhaseDescription = kDMMigrationPhaseDescriptionDidFinishWithSuccess;\n} }";
+    "SimDeviceNotification_PreviousBootStatus" = "SimDeviceBootInfo { status = 1 (WaitingOnBackboard), elapsed = 2.000000, isTerminal = 0, info = {\n} }";
+    device = "iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA, iOS 12.1, Booted)";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+10:42:59.572 xcodebuild[96143:1341196] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Launching app with identifier: endava.TestApp and options: {
+    "activate_suspended" = 0;
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+        "CA_DEBUG_TRANSACTIONS" = 0;
+        "DYLD_FRAMEWORK_PATH" = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator::/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator:";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator:/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator";
+        "LLVM_PROFILE_FILE" = "/var/folders/2t/llf0qw7935bbpjcxdr8xryfmb_fdr2/T/endava.TestApp/D7BF259F-A6A2-441B-A3E3-BB78E3607212-96143-0000978109CC2B8E/DC1942D0-39FC-405F-B55F-CF55A13C9E1F-%p.profraw%15x";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSApplicationQuitWithoutSuddenTermination = YES;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+        XCInjectBundleInto = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator/TestApp.app/TestApp";
+        XCTestConfigurationFilePath = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Logs/Test/Run-TestApp-2019.04.12_10-42-29-+0300.xcresult/2_Test/Diagnostics/TestAppTests-B8F9A69D-B8F2-4260-85B6-BE88979BC834/TestAppTests-C424B85E-C081-486C-BD4B-CC080C97ED84/LaunchSessions/8DBF428A-B480-42A4-A008-9C9727758975/remote-container/tmp/TestAppTests-8DBF428A-B480-42A4-A008-9C9727758975.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator:/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator:/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator";
+        "__XPC_LLVM_PROFILE_FILE" = "/var/folders/2t/llf0qw7935bbpjcxdr8xryfmb_fdr2/T/endava.TestApp/D7BF259F-A6A2-441B-A3E3-BB78E3607212-96143-0000978109CC2B8E/DC1942D0-39FC-405F-B55F-CF55A13C9E1F-%p.profraw%15x";
+    };
+    stderr = "/dev/ttys005";
+    stdout = "/dev/ttys005";
+    "wait_for_debugger" = 0;
+}
+10:42:59.662 xcodebuild[96143:1341251] BD62EA9D-2262-46E5-B16F-933B9E214BBA: Launched app with identifier: endava.TestApp (pid = 96455)
+10:42:59.662 xcodebuild[96143:1341251] 📱<DVTiPhoneSimulator (0x7fc19e258960), iPhone 5s, unknown class, 12.1 (16B91), BD62EA9D-2262-46E5-B16F-933B9E214BBA> tracking pid 96455
+10:42:59.662 xcodebuild[96143:1341251] 📱<DVTiPhoneSimulator (0x7fc19e258960), iPhone 5s, unknown class, 12.1 (16B91), BD62EA9D-2262-46E5-B16F-933B9E214BBA> checking to see if pid 96455 is valid: kill(pid, 0) = 0 (YES, it's still running)
+10:42:59.663 xcodebuild[96143:1340703] Test process runnable PID is 96455.
+2019-04-12 10:43:00.445242+0300 TestApp[96455:1342715] libMobileGestalt MobileGestalt.c:890: MGIsDeviceOneOfType is not supported on this platform.
+10:43:01.156 xcodebuild[96143:1341196] Got reply to session initiation request with identifier 8DBF428A-B480-42A4-A008-9C9727758975 (result:error): 29: (null)
+10:43:01.161 xcodebuild[96143:1341251] Handling proxy channel request from test runner
+10:43:01.161 xcodebuild[96143:1341251] Test runner is ready, running protocol 29, requires at least version 7. Control framework is running 29 and requires at least 7
+10:43:01.161 xcodebuild[96143:1340703] Test runner session successfully initiated.
+10:43:01.161 xcodebuild[96143:1340703] Whitelisting test process ID 96455
+10:43:18.994 xcodebuild[96143:1340703] Got whitelisting response from test daemon: Success
+10:43:18.994 xcodebuild[96143:1340703] Registering/updating daemon-based crash report observer for process names (
+    SpringBoard,
+    TestApp,
+    backboardd,
+    xctest
+)
+10:43:19.348 xcodebuild[96143:1340703] Telling test runner to start executing tests.
+10:43:00.631 TestApp[96455:1342715] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 1010(10B43a), modified on Tuesday, December 4, 2018 at 12:00:24 PM Eastern European Standard Time
+XCTest.framework bundle version: 14460.20
+10:43:00.635 TestApp[96455:1342715] System uptime: 23
+10:43:00.635 TestApp[96455:1342715] Process arguments: (
+    "/Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices/BD62EA9D-2262-46E5-B16F-933B9E214BBA/data/Containers/Bundle/Application/88B99F11-3AA2-49F8-8030-E052856A52C9/TestApp.app/TestApp",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+10:43:00.635 TestApp[96455:1342715] Process environment: {
+    "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+    "CA_DEBUG_TRANSACTIONS" = 0;
+    "CFFIXED_USER_HOME" = "/Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices/BD62EA9D-2262-46E5-B16F-933B9E214BBA/data/Containers/Data/Application/5082DCE4-78F8-4C91-A417-E7C168778EA6";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.Qw0qmziNW5/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator::/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator:";
+    "DYLD_LIBRARY_PATH" = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator:/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    HOME = "/Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices/BD62EA9D-2262-46E5-B16F-933B9E214BBA/data/Containers/Data/Application/5082DCE4-78F8-4C91-A417-E7C168778EA6";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/tmp/com.apple.CoreSimulator.SimDevice.BD62EA9D-2262-46E5-B16F-933B9E214BBA/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices/BD62EA9D-2262-46E5-B16F-933B9E214BBA/data";
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices/BD62EA9D-2262-46E5-B16F-933B9E214BBA/data/Library/Application Support/Simulator/extended_display.plist";
+    "LLVM_PROFILE_FILE" = "/var/folders/2t/llf0qw7935bbpjcxdr8xryfmb_fdr2/T/endava.TestApp/D7BF259F-A6A2-441B-A3E3-BB78E3607212-96143-0000978109CC2B8E/DC1942D0-39FC-405F-B55F-CF55A13C9E1F-%p.profraw%15x";
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSApplicationQuitWithoutSuddenTermination = YES;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/local/bin";
+    "RWI_LISTEN_SOCKET" = "/private/tmp/com.apple.launchd.qOb9g53K4Z/com.apple.webinspectord_sim.socket";
+    "SIMULATOR_AUDIO_DEVICES_PLIST_PATH" = "/Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices/BD62EA9D-2262-46E5-B16F-933B9E214BBA/data/var/run/com.apple.coresimulator.audio.plist";
+    "SIMULATOR_AUDIO_SETTINGS_PATH" = "/Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices/BD62EA9D-2262-46E5-B16F-933B9E214BBA/data/var/run/simulatoraudio/audiosettings.plist";
+    "SIMULATOR_BOOT_TIME" = 1555054957;
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 5s.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 5s";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices/BD62EA9D-2262-46E5-B16F-933B9E214BBA/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Platforms/iphoneos/Library/Frameworks/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/vtoloconnicov";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/vtoloconnicov/Library/Logs/CoreSimulator/BD62EA9D-2262-46E5-B16F-933B9E214BBA";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1136;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 640;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices/BD62EA9D-2262-46E5-B16F-933B9E214BBA/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone6,1";
+    "SIMULATOR_PRODUCT_CLASS" = N51;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 16B91;
+    "SIMULATOR_RUNTIME_VERSION" = "12.1";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices/BD62EA9D-2262-46E5-B16F-933B9E214BBA/data";
+    "SIMULATOR_UDID" = "BD62EA9D-2262-46E5-B16F-933B9E214BBA";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 581.2 - Device: iPhone 5s - Runtime: iOS 12.1 (16B91) - DeviceType: iPhone 5s";
+    "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.4urJKPtqKV/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/vtoloconnicov/Library/Developer/CoreSimulator/Devices/BD62EA9D-2262-46E5-B16F-933B9E214BBA/data/Containers/Data/Application/5082DCE4-78F8-4C91-A417-E7C168778EA6/tmp";
+    XCInjectBundleInto = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator/TestApp.app/TestApp";
+    XCTestConfigurationFilePath = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Logs/Test/Run-TestApp-2019.04.12_10-42-29-+0300.xcresult/2_Test/Diagnostics/TestAppTests-B8F9A69D-B8F2-4260-85B6-BE88979BC834/TestAppTests-C424B85E-C081-486C-BD4B-CC080C97ED84/LaunchSessions/8DBF428A-B480-42A4-A008-9C9727758975/remote-container/tmp/TestAppTests-8DBF428A-B480-42A4-A008-9C9727758975.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:endava.TestApp[0xed7f][96360]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.BD62EA9D-2262-46E5-B16F-933B9E214BBA";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator:/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator:/Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator";
+    "__XPC_LLVM_PROFILE_FILE" = "/var/folders/2t/llf0qw7935bbpjcxdr8xryfmb_fdr2/T/endava.TestApp/D7BF259F-A6A2-441B-A3E3-BB78E3607212-96143-0000978109CC2B8E/DC1942D0-39FC-405F-B55F-CF55A13C9E1F-%p.profraw%15x";
+}
+10:43:00.635 TestApp[96455:1342715] App Sandbox active: NO
+10:43:00.635 TestApp[96455:1342715] Loading test bundle at: file:///Users/vtoloconnicov/TestApp/build/deriveddata_scan/Build/Products/Debug-iphonesimulator/TestApp.app/PlugIns/TestAppTests.xctest/
+10:43:00.636 TestApp[96455:1342715] Finished loading test bundle
+10:43:00.636 TestApp[96455:1342715] Readying IDE session
+10:43:00.642 TestApp[96455:1342715] Creating future for 'Exchange protocol versions with daemon' with timeout 15.00
+10:43:00.644 TestApp[96455:1342715] <XCTWaiter: 0x6000016aba90, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: `Exchange protocol versions with daemon`
+10:43:01.123 TestApp[96455:1342748] <XCTWaiter: 0x6000016aba90, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:43:01.123 TestApp[96455:1342715] <XCTWaiter: 0x6000016aba90, state: XCTWaiterStateSucceeded> done waiting
+10:43:01.123 TestApp[96455:1342715] Canceling watchdog for <XCTWaiter: 0x6000016aba90, state: XCTWaiterStateInProgress>.
+10:43:01.123 TestApp[96455:1342715] <XCTWaiter: 0x6000016aba90, state: XCTWaiterStateSucceeded> cleaning up `Exchange protocol versions with daemon`
+10:43:01.123 TestApp[96455:1342715] Got daemon protocol version 26
+10:43:01.123 TestApp[96455:1342715] Requesting IDE connection transport
+10:43:01.124 TestApp[96455:1342715] <XCTWaiter: 0x6000016abee0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `Transport for IDE session acquired`
+10:43:01.158 TestApp[96455:1342748] Creating transport with received transport data
+10:43:01.159 TestApp[96455:1342748] <XCTWaiter: 0x6000016abee0, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:43:01.159 TestApp[96455:1342715] <XCTWaiter: 0x6000016abee0, state: XCTWaiterStateSucceeded> done waiting
+10:43:01.159 TestApp[96455:1342715] Canceling watchdog for <XCTWaiter: 0x6000016abee0, state: XCTWaiterStateInProgress>.
+10:43:01.159 TestApp[96455:1342715] <XCTWaiter: 0x6000016abee0, state: XCTWaiterStateSucceeded> cleaning up `Transport for IDE session acquired`
+10:43:01.159 TestApp[96455:1342715] Creating connection with transport <DTXFileDescriptorTransport: 0x600003aaa880>
+10:43:01.159 TestApp[96455:1342715] Creating the proxy channel with connection <DTXConnection 0x6000028aca00 : x1>
+10:43:01.160 TestApp[96455:1342715] Creating future for 'IDE session ready for test plan' with timeout 60.00
+10:43:01.160 TestApp[96455:1342715] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:29 minimumVersion:7
+10:43:01.161 TestApp[96455:1342715] <XCTWaiter: 0x6000016bc750, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `IDE session ready for test plan`
+10:43:01.161 TestApp[96455:1342775] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+10:43:19.349 TestApp[96455:1342752] _IDE_startExecutingTestPlanWithProtocolVersion:29
+10:43:19.349 TestApp[96455:1342752] <XCTWaiter: 0x6000016bc750, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:43:19.349 TestApp[96455:1342715] <XCTWaiter: 0x6000016bc750, state: XCTWaiterStateSucceeded> done waiting
+10:43:19.349 TestApp[96455:1342715] Canceling watchdog for <XCTWaiter: 0x6000016bc750, state: XCTWaiterStateInProgress>.
+10:43:19.349 TestApp[96455:1342715] <XCTWaiter: 0x6000016bc750, state: XCTWaiterStateSucceeded> cleaning up `IDE session ready for test plan`
+10:43:19.355 xcodebuild[96143:1340703] Starting test plan, clearing initialization timeout timer.
+10:43:19.355 TestApp[96455:1342715] Entering test execution event loop
+10:43:19.356 TestApp[96455:1342715] -[XCTRunnerIDESession testBundleWillStart:]
+10:43:19.356 TestApp[96455:1342715] Loading test suite...
+10:43:19.434 TestApp[96455:1342715] Finished loading test suite, took 0.078s
+10:43:19.434 TestApp[96455:1342715] Running suite...
+Test Suite 'All tests' started at 2019-04-12 10:43:19.434
+10:43:19.435 TestApp[96455:1342715] -[XCTRunnerIDESession testSuiteWillStart:]
+10:43:19.437 xcodebuild[96143:1340703] _XCT_testSuite:All tests didStartAt:2019-04-12 07:43:19 +0000
+10:43:19.438 xcodebuild[96143:1343210] (LOG ARBITER) Rotating message buffer with 2 messages.
+10:43:19.443 xcodebuild[96143:1343210] (LOG ARBITER) Dumping buffered message data; 2 messages.
+Test Suite 'TestAppTests.xctest' started at 2019-04-12 10:43:19.436
+Test Suite 'TestAppTests' started at 2019-04-12 10:43:19.436
+10:43:19.440 xcodebuild[96143:1340703] _XCT_testSuite:TestAppTests didStartAt:2019-04-12 07:43:19 +0000
+10:43:19.436 TestApp[96455:1342715] -[XCTRunnerIDESession testSuiteWillStart:]
+10:43:19.440 xcodebuild[96143:1340703] _XCT_testCaseDidStartForTestClass:TestAppTests.TestAppTests method:testExample
+10:43:19.437 TestApp[96455:1342715] -[XCTRunnerIDESession testCaseWillStart:] TestAppTests.TestAppTests testExample
+10:43:19.439 TestApp[96455:1342715] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Case '-[TestAppTests.TestAppTests testExample]' started.
+Test Case '-[TestAppTests.TestAppTests testExample]' passed (0.002 seconds).
+Test Case '-[TestAppTests.TestAppTests testPerformanceExample]' started.
+10:43:19.443 xcodebuild[96143:1340703] _XCT_testCaseDidFinishForTestClass:TestAppTests.TestAppTests method:testExample withStatus:passed duration:0.001924991607666016
+10:43:19.443 xcodebuild[96143:1340703] _XCT_testCaseDidStartForTestClass:TestAppTests.TestAppTests method:testPerformanceExample
+10:43:19.439 TestApp[96455:1342715] -[XCTRunnerIDESession testCaseWillStart:] TestAppTests.TestAppTests testPerformanceExample
+/Users/vtoloconnicov/TestApp/TestAppTests/TestAppTests.swift:29: Test Case '-[TestAppTests.TestAppTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 98.014%, values: [0.000004, 0.000002, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+10:43:19.855 TestApp[96455:1342715] -[XCTRunnerIDESession _testCase:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:]
+10:43:19.856 xcodebuild[96143:1340703] -[XCTTestRunnerSession _XCT_testMethod:ofClass:didMeasureMetric:file:line:]_block_invoke
+Test Case '-[TestAppTests.TestAppTests testPerformanceExample]' passed (0.417 seconds).
+10:43:19.856 TestApp[96455:1342715] -[XCTRunnerIDESession testCaseDidFinish:]
+10:43:19.858 xcodebuild[96143:1340703] _XCT_testCaseDidFinishForTestClass:TestAppTests.TestAppTests method:testPerformanceExample withStatus:passed duration:0.4169930219650269
+10:43:19.857 TestApp[96455:1342715] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'TestAppTests' passed at 2019-04-12 10:43:19.857.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.419 (0.421) seconds
+Test Suite 'TestAppTests.xctest' passed at 2019-04-12 10:43:19.857.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.419 (0.422) seconds
+Test Suite 'All tests' passed at 2019-04-12 10:43:19.858.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.419 (0.424) seconds
+10:43:19.859 xcodebuild[96143:1340703] _XCT_testSuite:TestAppTests didFinishAt:2019-04-12 07:43:19 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.4189180135726929 totalDuration:0.4205160140991211
+10:43:19.857 TestApp[96455:1342715] -[XCTRunnerIDESession testSuiteDidFinish:]
+10:43:19.861 xcodebuild[96143:1340703] _XCT_testSuite:TestAppTests.xctest didFinishAt:2019-04-12 07:43:19 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.4189180135726929 totalDuration:0.4215620756149292
+10:43:19.858 TestApp[96455:1342715] -[XCTRunnerIDESession testSuiteDidFinish:]
+10:43:19.861 xcodebuild[96143:1340703] _XCT_testSuite:All tests didFinishAt:2019-04-12 07:43:19 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.4189180135726929 totalDuration:0.4235138893127441
+10:43:19.858 TestApp[96455:1342715] Finished running suite.
+10:43:19.861 xcodebuild[96143:1340703] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+10:43:19.858 TestApp[96455:1342715] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+10:43:19.858 TestApp[96455:1342715] Exited test execution event loop
+10:43:19.858 TestApp[96455:1342715] Calling completion.
+10:43:19.859 TestApp[96455:1342715] <XCTWaiter: 0x6000016b8360, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: `IDE confirmed the end of session`
+10:43:19.862 TestApp[96455:1342748] <XCTWaiter: 0x6000016b8360, state: XCTWaiterStateSucceeded>: cancelWaiting
+10:43:19.862 TestApp[96455:1342715] <XCTWaiter: 0x6000016b8360, state: XCTWaiterStateSucceeded> done waiting
+10:43:19.862 TestApp[96455:1342715] Canceling watchdog for <XCTWaiter: 0x6000016b8360, state: XCTWaiterStateInProgress>.
+10:43:19.862 TestApp[96455:1342715] <XCTWaiter: 0x6000016b8360, state: XCTWaiterStateSucceeded> cleaning up `IDE confirmed the end of session`
+10:43:19.884 xcodebuild[96143:1340703] 📱<DVTiPhoneSimulator (0x7fc19e258960), iPhone 5s, unknown class, 12.1 (16B91), BD62EA9D-2262-46E5-B16F-933B9E214BBA> got death notice for pid 96455, removing from SimulatorSessionMap
+10:43:19.884 xcodebuild[96143:1340703] 📱<DVTiPhoneSimulator (0x7fc19e258960), iPhone 5s, unknown class, 12.1 (16B91), BD62EA9D-2262-46E5-B16F-933B9E214BBA> claim LaunchSessionClaim_0x7fc19e273ea0 on simulator was relinquished
+10:43:19.885 xcodebuild[96143:1340703] 📱<DVTiPhoneSimulator (0x7fc19e258960), iPhone 5s, unknown class, 12.1 (16B91), BD62EA9D-2262-46E5-B16F-933B9E214BBA> claim LaunchSessionClaim_0x7fc19e273ea0 on simulator was relinquished
+10:43:19.885 xcodebuild[96143:1342489] Closing socket 29 to testmanagerd for Sim iPhone 5s
+10:43:20.135 xcodebuild[96143:1340703] <IDETestOperationCoordinator: 0x7fc19e513a00> finished receiving data from testing launch session
+10:43:20.135 xcodebuild[96143:1340703] <IDETestOperationCoordinator: 0x7fc19e513a00>: _considerFlushingDelegateBlockQueue - nothing to flush
+10:43:20.135 xcodebuild[96143:1340703] _finishWithError:(null)
