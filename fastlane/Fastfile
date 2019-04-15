@@ -32,6 +32,12 @@ platform :ios do
    	 	)
  	 end
 
+ 	desc "Validate Pull Request"
+  	lane :validate_pr do
+   		danger
+   		test
+ 	end
+
   	private_lane :publish do
     	if ENV['GYM_EXPORT_METHOD'] == "app-store"
      		 produce # create the app in App Store if it doesn't exist
