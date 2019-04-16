@@ -32,7 +32,7 @@ platform :ios do
    	 	)
  	 end
 
- 	desc "Validate Pull Request"
+ 	desc "Validate Pull Request."
   	lane :validate_pr do
    		danger
    		test
