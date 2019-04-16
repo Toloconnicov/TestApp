@@ -35,15 +35,7 @@ project = Xcodeproj::Project.open(project_path)
 project.groups.each do |group|
   recurse_xcode_groups(group.groups)
 end
- 
-# Check ObjC style
-clang_format_output = `./scripts/clang-format.sh lint`
-if $?.exitstatus != 0
-    clang_format_output.split("\n").each do |line|
-        fail(line)
-    end
-end
- 
+
 # Check Swift style
 swiftlint_output = `swiftlint &> .swiftlint_output; cat .swiftlint_output | grep 'warning\\|error'`
 unless swiftlint_output.to_s.empty?
