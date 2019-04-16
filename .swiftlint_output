@@ -1,0 +1,13 @@
+Linting Swift files at paths 
+Linting 'AppDelegate.swift' (1/3)
+Linting 'TestAppTests.swift' (2/3)
+Linting 'ViewController.swift' (3/3)
+/Users/vtoloconnicov/TestApp/TestApp/AppDelegate.swift:16: warning: Line Length Violation: Line should be 120 characters or less: currently 145 characters (line_length)
+/Users/vtoloconnicov/TestApp/TestApp/AppDelegate.swift:22: error: Line Length Violation: Line should be 120 characters or less: currently 285 characters (line_length)
+/Users/vtoloconnicov/TestApp/TestApp/AppDelegate.swift:23: warning: Line Length Violation: Line should be 120 characters or less: currently 159 characters (line_length)
+/Users/vtoloconnicov/TestApp/TestApp/AppDelegate.swift:27: error: Line Length Violation: Line should be 120 characters or less: currently 218 characters (line_length)
+/Users/vtoloconnicov/TestApp/TestApp/AppDelegate.swift:28: warning: Line Length Violation: Line should be 120 characters or less: currently 141 characters (line_length)
+/Users/vtoloconnicov/TestApp/TestApp/AppDelegate.swift:32: warning: Line Length Violation: Line should be 120 characters or less: currently 155 characters (line_length)
+/Users/vtoloconnicov/TestApp/TestApp/AppDelegate.swift:36: warning: Line Length Violation: Line should be 120 characters or less: currently 194 characters (line_length)
+/Users/vtoloconnicov/TestApp/TestApp/AppDelegate.swift:40: warning: Line Length Violation: Line should be 120 characters or less: currently 128 characters (line_length)
+Done linting! Found 8 violations, 2 serious in 3 files.
