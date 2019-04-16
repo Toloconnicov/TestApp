@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "999ec91bbfb14188307f988b15a25b68"
-build_time: [1555055267, 623582000]
-inputs:
-  "/Users/vtoloconnicov/TestApp/TestApp/ViewController.swift": [1555053646, 0]
-  "/Users/vtoloconnicov/TestApp/TestApp/AppDelegate.swift": [1555053646, 0]

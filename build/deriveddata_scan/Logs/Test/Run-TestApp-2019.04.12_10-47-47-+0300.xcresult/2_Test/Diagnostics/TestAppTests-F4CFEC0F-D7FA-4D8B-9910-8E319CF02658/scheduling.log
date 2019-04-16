@@ -1,5 +1,0 @@
-2019-04-12 07:47:55 +0000: Received worker from worker provider: 0x7fdefdd24f00 [0: iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA)]
-2019-04-12 07:48:21 +0000: Worker 0x7fdefdd24f00 [96911: iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA)] finished bootstrapping
-2019-04-12 07:48:21 +0000: Parallelization disabled; test execution driven by the test process
-2019-04-12 07:48:22 +0000: Worker 0x7fdefdd24f00 [96911: iPhone 5s (BD62EA9D-2262-46E5-B16F-933B9E214BBA)] finished successfully
-2019-04-12 07:48:22 +0000: Finished executing tests (cancelled: No)
