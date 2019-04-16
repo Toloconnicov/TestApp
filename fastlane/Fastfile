@@ -34,7 +34,7 @@ platform :ios do
 
  	desc "Validate Pull Request"
   	lane :validate_pr do
-   		#danger
+   		danger
    		test
  	end
 
