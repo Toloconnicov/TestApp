@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "d37f857aabc9e23aad00a0d4dc23119c"
-build_time: [1555054955, 402800000]
-inputs:
-  "/Users/vtoloconnicov/TestApp/TestAppTests/TestAppTests.swift": [1554971694, 0]

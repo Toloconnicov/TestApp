@@ -1,0 +1,12 @@
+indentation: 2
+
+line_length: 300
+
+# Rules to be disabled
+disabled_rules:
+  - todo
+
+# Swiftlint Paths
+excluded:
+  - Pods
+  - DemoTests
