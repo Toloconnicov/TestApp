@@ -11,8 +11,8 @@ platform :ios do
 		en_setup_keychain
 		set_build_number
 		match
+		cocoapods
 		gym
-		#crashlytics
 		publish
 	end
   
@@ -43,7 +43,7 @@ platform :ios do
      		 produce # create the app in App Store if it doesn't exist
      		 pilot
   	  	else
-   	   		# crashlytics # disabled because the fabric account is not created
+   	   		crashlytics
    		 end
  	 end
 

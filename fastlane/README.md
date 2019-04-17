@@ -35,7 +35,7 @@ fastlane ios create_sonar_reports
 ```
 fastlane ios validate_pr
 ```
-Validate Pull Request
+Validate Pull Request.
 
 ----
 
