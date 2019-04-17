@@ -17,6 +17,7 @@ platform :ios do
 	end
   
   	 lane :test do
+  	 	cocoapods
   	 	scan(code_coverage: true)
     	slather
 	  end
