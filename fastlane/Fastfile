@@ -45,7 +45,7 @@ platform :ios do
    	   		crashlytics
    		 end
  	 end
-#
+
 # 	lane :commitFastfile do 
 # 		git_add(path: "fastlane/Fastfile")
 #		git_commit(path: "fastlane/Fastfile", message: "Update Fastfile")
