@@ -50,7 +50,7 @@ platform :ios do
 
  	lane :commitFastfile do
  		git_add(path: "fastlane/Fastfile")
-		git_commit(path: "fastlane/Fastfile", message: "Update Fastfile")
+		git_commit(path: "fastlane/Fastfile", message: "Update")
 	end
 
 	after_all do |lane|
