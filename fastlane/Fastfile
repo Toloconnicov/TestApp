@@ -49,8 +49,8 @@ platform :ios do
  	 end
 
  	lane :commitFastfile do
- 		#git_add(path: "./fastlane/Fastfile.txt")
-		git_commit(path: "fastlane/Fastfile", message: "Update Fastfile", skip_git_hooks: true)
+ 		git_add(path: "fastlane/Fastfile")
+		git_commit(path: "fastlane/Fastfile", message: "Update Fastfile")
 	end
 
 	after_all do |lane|
