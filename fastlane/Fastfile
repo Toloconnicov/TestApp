@@ -28,9 +28,7 @@ platform :ios do
 	 end
 
    	private_lane :set_build_number do
-    	increment_build_number(
-    	    build_number: en_build_number
-   	 	)
+    	increment_build_number(build_number: en_build_number)
  	 end
 
  	desc "Validate Pull Request."
@@ -50,7 +48,7 @@ platform :ios do
 
  	lane :commitFastfile do
  		git_add(path: "fastlane/Fastfile")
-		git_commit(path: "fastlane/Fastfile", message: "Update")
+		git_commit(path: "fastlane/Fastfile", message: "Update Fastfile")
 	end
 
 	after_all do |lane|
