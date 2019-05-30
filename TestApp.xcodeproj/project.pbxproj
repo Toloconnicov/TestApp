@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1EB42CC81E738D014B6D0857 /* Pods_TestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41900E1366559BC0C579A51 /* Pods_TestApp.framework */; };
+		978BACBE2278346300BB5573 /* AppMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978BACBD2278346300BB5573 /* AppMainViewController.swift */; };
+		979638E02269C5FD00DB9E97 /* TutorialFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979638DE2269C5FD00DB9E97 /* TutorialFirstViewController.swift */; };
+		97983903228D7B4C0009694E /* FlightItineraries.json in Resources */ = {isa = PBXBuildFile; fileRef = 97983902228D7B4C0009694E /* FlightItineraries.json */; };
+		97983907228EA37E0009694E /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 97983906228EA37D0009694E /* arrow.png */; };
+		97983911229408760009694E /* SearchFlightService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97983910229408760009694E /* SearchFlightService.swift */; };
+		97B0D607227C33CE0095E051 /* recordButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B0D606227C33CE0095E051 /* recordButtonImage.png */; };
+		97B0D609227C33F30095E051 /* stopButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B0D608227C33F30095E051 /* stopButtonImage.png */; };
+		97B0D60F227C4A2B0095E051 /* FlightBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0D60E227C4A2B0095E051 /* FlightBookingViewController.swift */; };
+		97B0D6732281A53E0095E051 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0D6722281A53E0095E051 /* SearchResultsViewController.swift */; };
+		97B0D67B22898DB20095E051 /* FlightInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0D67A22898DB20095E051 /* FlightInfoModel.swift */; };
 		97C83ED6225F33AC00C55450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C83ED5225F33AC00C55450 /* AppDelegate.swift */; };
 		97C83ED8225F33AC00C55450 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C83ED7225F33AC00C55450 /* ViewController.swift */; };
 		97C83EDB225F33AC00C55450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C83ED9225F33AC00C55450 /* Main.storyboard */; };
@@ -26,7 +36,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		97B0D603227B0B370095E051 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		033FF61B8C1857A5D4EFC55C /* Pods-SiriExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiriExtension.release.xcconfig"; path = "Target Support Files/Pods-SiriExtension/Pods-SiriExtension.release.xcconfig"; sourceTree = "<group>"; };
+		8FD2282FB342C53D6E8DA83A /* Pods-FlightIntent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightIntent.debug.xcconfig"; path = "Target Support Files/Pods-FlightIntent/Pods-FlightIntent.debug.xcconfig"; sourceTree = "<group>"; };
+		978BACBD2278346300BB5573 /* AppMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainViewController.swift; sourceTree = "<group>"; };
+		979638DE2269C5FD00DB9E97 /* TutorialFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialFirstViewController.swift; sourceTree = "<group>"; };
+		97983902228D7B4C0009694E /* FlightItineraries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlightItineraries.json; sourceTree = SOURCE_ROOT; };
+		97983906228EA37D0009694E /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		97983910229408760009694E /* SearchFlightService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFlightService.swift; sourceTree = "<group>"; };
+		97B0D5DF227B0A700095E051 /* TestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestApp.entitlements; sourceTree = "<group>"; };
+		97B0D5EE227B0B370095E051 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		97B0D606227C33CE0095E051 /* recordButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordButtonImage.png; sourceTree = "<group>"; };
+		97B0D608227C33F30095E051 /* stopButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopButtonImage.png; sourceTree = "<group>"; };
+		97B0D60E227C4A2B0095E051 /* FlightBookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightBookingViewController.swift; sourceTree = "<group>"; };
+		97B0D6722281A53E0095E051 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		97B0D67A22898DB20095E051 /* FlightInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInfoModel.swift; sourceTree = "<group>"; };
 		97C83ED2225F33AC00C55450 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C83ED5225F33AC00C55450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97C83ED7225F33AC00C55450 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +75,11 @@
 		97C83EEA225F33AE00C55450 /* TestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppTests.swift; sourceTree = "<group>"; };
 		97C83EEC225F33AE00C55450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A44163BB42B74712B12BDAD2 /* Pods-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.release.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.release.xcconfig"; sourceTree = "<group>"; };
+		AF141DC21FF5E8521E12B0ED /* Pods_SiriExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiriExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C967F6ABFE425666F3CB7F /* Pods-SiriExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiriExtension.debug.xcconfig"; path = "Target Support Files/Pods-SiriExtension/Pods-SiriExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		C0F7FA5F986C2713FA0495C9 /* Pods-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.debug.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DC142C06CA29E9E95842067C /* Pods-FlightIntent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlightIntent.release.xcconfig"; path = "Target Support Files/Pods-FlightIntent/Pods-FlightIntent.release.xcconfig"; sourceTree = "<group>"; };
+		E02BCA2B8DB2B004BCD9EA92 /* Pods_FlightIntent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlightIntent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41900E1366559BC0C579A51 /* Pods_TestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -65,6 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				F41900E1366559BC0C579A51 /* Pods_TestApp.framework */,
+				97B0D5EE227B0B370095E051 /* IntentsUI.framework */,
+				AF141DC21FF5E8521E12B0ED /* Pods_SiriExtension.framework */,
+				E02BCA2B8DB2B004BCD9EA92 /* Pods_FlightIntent.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -74,6 +118,10 @@
 			children = (
 				C0F7FA5F986C2713FA0495C9 /* Pods-TestApp.debug.xcconfig */,
 				A44163BB42B74712B12BDAD2 /* Pods-TestApp.release.xcconfig */,
+				B4C967F6ABFE425666F3CB7F /* Pods-SiriExtension.debug.xcconfig */,
+				033FF61B8C1857A5D4EFC55C /* Pods-SiriExtension.release.xcconfig */,
+				8FD2282FB342C53D6E8DA83A /* Pods-FlightIntent.debug.xcconfig */,
+				DC142C06CA29E9E95842067C /* Pods-FlightIntent.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -101,12 +149,23 @@
 		97C83ED4225F33AC00C55450 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				97B0D5DF227B0A700095E051 /* TestApp.entitlements */,
 				97C83ED5225F33AC00C55450 /* AppDelegate.swift */,
 				97C83ED7225F33AC00C55450 /* ViewController.swift */,
 				97C83ED9225F33AC00C55450 /* Main.storyboard */,
 				97C83EDC225F33AE00C55450 /* Assets.xcassets */,
 				97C83EDE225F33AE00C55450 /* LaunchScreen.storyboard */,
 				97C83EE1225F33AE00C55450 /* Info.plist */,
+				97B0D60E227C4A2B0095E051 /* FlightBookingViewController.swift */,
+				97B0D6722281A53E0095E051 /* SearchResultsViewController.swift */,
+				979638DE2269C5FD00DB9E97 /* TutorialFirstViewController.swift */,
+				978BACBD2278346300BB5573 /* AppMainViewController.swift */,
+				97983902228D7B4C0009694E /* FlightItineraries.json */,
+				97B0D67A22898DB20095E051 /* FlightInfoModel.swift */,
+				97983910229408760009694E /* SearchFlightService.swift */,
+				97B0D608227C33F30095E051 /* stopButtonImage.png */,
+				97B0D606227C33CE0095E051 /* recordButtonImage.png */,
+				97983906228EA37D0009694E /* arrow.png */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -132,6 +191,8 @@
 				97C83ECF225F33AC00C55450 /* Frameworks */,
 				97C83ED0225F33AC00C55450 /* Resources */,
 				973EF43C2265F5F5002C8AD3 /* ShellScript */,
+				97B0D603227B0B370095E051 /* Embed App Extensions */,
+				334022A0ADC78C1069EC2B35 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,14 +227,17 @@
 		97C83ECA225F33AC00C55450 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Endava;
 				TargetAttributes = {
 					97C83ED1225F33AC00C55450 = {
 						CreatedOnToolsVersion = 10.1;
-						DevelopmentTeam = 2354U295GD;
-						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 					97C83EE5225F33AE00C55450 = {
 						CreatedOnToolsVersion = 10.1;
@@ -209,7 +273,11 @@
 			files = (
 				97C83EE0225F33AE00C55450 /* LaunchScreen.storyboard in Resources */,
 				97C83EDD225F33AE00C55450 /* Assets.xcassets in Resources */,
+				97B0D609227C33F30095E051 /* stopButtonImage.png in Resources */,
 				97C83EDB225F33AC00C55450 /* Main.storyboard in Resources */,
+				97B0D607227C33CE0095E051 /* recordButtonImage.png in Resources */,
+				97983907228EA37E0009694E /* arrow.png in Resources */,
+				97983903228D7B4C0009694E /* FlightItineraries.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +291,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		334022A0ADC78C1069EC2B35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestApp/Pods-TestApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestApp/Pods-TestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		88FA3B930F7CC1A215850721 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,8 +360,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B0D6732281A53E0095E051 /* SearchResultsViewController.swift in Sources */,
+				97983911229408760009694E /* SearchFlightService.swift in Sources */,
+				979638E02269C5FD00DB9E97 /* TutorialFirstViewController.swift in Sources */,
 				97C83ED8225F33AC00C55450 /* ViewController.swift in Sources */,
 				97C83ED6225F33AC00C55450 /* AppDelegate.swift in Sources */,
+				97B0D67B22898DB20095E051 /* FlightInfoModel.swift in Sources */,
+				978BACBE2278346300BB5573 /* AppMainViewController.swift in Sources */,
+				97B0D60F227C4A2B0095E051 /* FlightBookingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,9 +533,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0F7FA5F986C2713FA0495C9 /* Pods-TestApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestApp/TestApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2354U295GD;
 				INFOPLIST_FILE = TestApp/Info.plist;
@@ -449,7 +547,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = endava.TestApp.uat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match InHouse endava.TestApp.uat";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -460,9 +558,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A44163BB42B74712B12BDAD2 /* Pods-TestApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestApp/TestApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2354U295GD;
 				INFOPLIST_FILE = TestApp/Info.plist;
@@ -472,7 +572,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = endava.TestApp.uat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match InHouse endava.TestApp.uat";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";

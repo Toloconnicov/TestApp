@@ -1,0 +1,276 @@
+{
+  "itineraries" : [
+    {
+      "departureAirportLabel" : "KIV",
+      "arrivalAirportLabel" : "AMS",
+      "pricingInformation" :
+        {
+          "baseFareAmount" : 277.19999999999999,
+          "constructionAmount" : 277.19999999999999,
+          "baseFareCurrency" : "USD",
+          "equivalentAmount" : 277.19999999999999,
+          "totalPrice" : 339.49000000000001,
+          "equivalentCurrency" : "USD",
+          "currency" : "USD",
+          "constructionCurrency" : "USD",
+          "totalTaxAmount" : 62.289999999999999
+        },
+      "passengerInfo" : {
+        "passengerNumber" : 1,                          
+        "nonRefundable" : true,
+        "bookingCode" : "U",
+        "seatsAvailable" : 9,
+        "cabinCode" : "Y",
+        "lastTicketDate" : "2019-05-16",
+        "eTicketable" : true,
+        "mealCode" : "D",
+      },
+      "id" : 1
+    },
+    {
+      "departureAirportLabel" : "KIV",
+      "arrivalAirportLabel" : "BON",
+      "pricingInformation" :
+        {
+          "currency" : "USD",
+          "constructionAmount" : 289.30000000000001,
+          "totalPrice" : 339.60000000000002,
+          "totalTaxAmount" : 50.299999999999997,
+          "equivalentAmount" : 289.30000000000001,
+          "constructionCurrency" : "USD",
+          "baseFareAmount" : 289.30000000000001,
+          "baseFareCurrency" : "USD",
+          "equivalentCurrency" : "USD"
+        },
+      "passengerInfo" : {
+        "passengerNumber" : 1,                          
+        "nonRefundable" : true,
+        "bookingCode" : "N",
+        "seatsAvailable" : 9,
+        "cabinCode" : "Y",
+        "lastTicketDate" : "2019-05-16",
+        "eTicketable" : true,
+        "mealCode" : "D",
+      },
+      "id" : 2
+    },
+    {
+      "departureAirportLabel" : "KIV",
+      "arrivalAirportLabel" : "DHR",
+      "pricingInformation" :
+        {
+          "totalTaxAmount" : 50.299999999999997,
+          "baseFareCurrency" : "USD",
+          "currency" : "USD",
+          "constructionCurrency" : "USD",
+          "constructionAmount" : 289.30000000000001,
+          "totalPrice" : 339.60000000000002,
+          "equivalentCurrency" : "USD",
+          "equivalentAmount" : 289.30000000000001,
+          "baseFareAmount" : 289.30000000000001
+        },
+      "passengerInfo" : {
+        "passengerNumber" : 1,                          
+        "nonRefundable" : true,
+        "bookingCode" : "N",
+        "seatsAvailable" : 9,
+        "cabinCode" : "Y",
+        "lastTicketDate" : "2019-05-16",
+        "eTicketable" : true,
+        "mealCode" : "B",
+      },
+      "id" : 3
+    },
+    {
+      "departureAirportLabel" : "KIV",
+      "arrivalAirportLabel" : "EIN",
+      "pricingInformation" :
+        {
+          "totalTaxAmount" : 50.299999999999997,
+          "baseFareCurrency" : "USD",
+          "currency" : "USD",
+          "constructionCurrency" : "USD",
+          "constructionAmount" : 289.30000000000001,
+          "totalPrice" : 339.60000000000002,
+          "equivalentCurrency" : "USD",
+          "equivalentAmount" : 289.30000000000001,
+          "baseFareAmount" : 289.30000000000001
+        },
+      "passengerInfo" : {
+        "passengerNumber" : 1,                          
+        "nonRefundable" : true,
+        "bookingCode" : "N",
+        "seatsAvailable" : 9,
+        "cabinCode" : "Y",
+        "lastTicketDate" : "2019-05-16",
+        "eTicketable" : true,
+        "mealCode" : "B",
+      },
+      "id" : 4
+    },    
+    {
+      "departureAirportLabel" : "KIV",
+      "arrivalAirportLabel" : "ENS",
+      "pricingInformation" :
+        {
+          "totalTaxAmount" : 50.299999999999997,
+          "baseFareCurrency" : "USD",
+          "currency" : "USD",
+          "constructionCurrency" : "USD",
+          "constructionAmount" : 289.30000000000001,
+          "totalPrice" : 339.60000000000002,
+          "equivalentCurrency" : "USD",
+          "equivalentAmount" : 289.30000000000001,
+          "baseFareAmount" : 289.30000000000001
+        },
+      "passengerInfo" : {
+        "passengerNumber" : 1,                          
+        "nonRefundable" : true,
+        "bookingCode" : "N",
+        "seatsAvailable" : 9,
+        "cabinCode" : "Y",
+        "lastTicketDate" : "2019-05-16",
+        "eTicketable" : true,
+        "mealCode" : "B",
+      },
+      "id" : 5
+    },     
+    {
+      "departureAirportLabel" : "KIV",
+      "arrivalAirportLabel" : "LEY",
+      "pricingInformation" :
+        {
+          "totalTaxAmount" : 50.299999999999997,
+          "currency" : "USD",
+          "constructionCurrency" : "USD",
+          "constructionAmount" : 320,
+          "baseFareAmount" : 320,
+          "totalTaxAmount" : 52.600000000000001,
+          "equivalentAmount" : 320,
+          "baseFareCurrency" : "USD",
+          "equivalentCurrency" : "USD",
+          "totalPrice" : 372.60000000000002
+        },
+      "passengerInfo" : {
+        "passengerNumber" : 1,                          
+        "nonRefundable" : true,
+        "cabinCode" : "Y",
+        "seatsAvailable" : 9,
+        "bookingCode" : "N",
+        "mealCode" : "B",
+        "lastTicketDate" : "2019-05-16",
+        "eTicketable" : true
+      },
+      "id" : 6
+    },
+    {
+      "departureAirportLabel" : "KIV",
+      "arrivalAirportLabel" : "MST",
+      "pricingInformation" :
+        {
+          "totalTaxAmount" : 50.299999999999997,
+          "currency" : "USD",
+          "baseFareAmount" : 323.72000000000003,
+          "constructionAmount" : 323.72000000000003,
+          "equivalentAmount" : 323.72000000000003,
+          "totalTaxAmount" : 52.880000000000003,
+          "baseFareCurrency" : "USD",
+          "constructionCurrency" : "USD",
+          "totalPrice" : 376.60000000000002,
+          "equivalentCurrency" : "USD"
+        },
+      "passengerInfo" : {
+        "passengerNumber" : 1,                          
+        "nonRefundable" : true,
+        "bookingCode" : "N",
+        "mealCode" : "D",
+        "seatsAvailable" : 9,
+        "cabinCode" : "Y",
+        "lastTicketDate" : "2019-05-16",
+        "eTicketable" : true
+      },
+      "id" : 7
+    },
+    {
+      "departureAirportLabel" : "KIV",
+      "arrivalAirportLabel" : "RTM",
+      "pricingInformation" :
+        {
+          "totalTaxAmount" : 52.880000000000003,
+          "constructionCurrency" : "USD",
+          "baseFareCurrency" : "USD",
+          "currency" : "USD",
+          "equivalentAmount" : 323.72000000000003,
+          "constructionAmount" : 323.72000000000003,
+          "equivalentCurrency" : "USD",
+          "baseFareAmount" : 323.72000000000003,
+          "totalPrice" : 376.60000000000002
+        },
+      "passengerInfo" : {
+        "passengerNumber" : 1,                          
+        "nonRefundable" : true,
+        "cabinCode" : "Y",
+        "bookingCode" : "N",
+        "mealCode" : "D",
+        "seatsAvailable" : 9,
+        "lastTicketDate" : "2019-05-16",
+        "eTicketable" : true
+      },
+      "id" : 8
+    },
+    {
+      "departureAirportLabel" : "KIV",
+      "arrivalAirportLabel" : "SAB",
+      "pricingInformation" :
+        {
+          "baseFareAmount" : 323.72000000000003,
+          "constructionCurrency" : "USD",
+          "currency" : "USD",
+          "equivalentAmount" : 323.72000000000003,
+          "totalTaxAmount" : 52.880000000000003,
+          "baseFareCurrency" : "USD",
+          "totalPrice" : 376.60000000000002,
+          "equivalentCurrency" : "USD",
+          "constructionAmount" : 323.72000000000003              },
+      "passengerInfo" : {
+        "passengerNumber" : 1,                          
+        "nonRefundable" : true,
+        "mealCode" : "B",
+        "bookingCode" : "N",
+        "seatsAvailable" : 9,
+        "cabinCode" : "Y",
+        "lastTicketDate" : "2019-05-16",
+        "eTicketable" : true
+        },
+      "id" : 9
+    },
+    {
+      "departureAirportLabel" : "KIV",
+      "arrivalAirportLabel" : "EUX",
+      "pricingInformation" :
+        {
+          "baseFareAmount" : 323.72000000000003,
+          "totalTaxAmount" : 52.880000000000003,
+          "equivalentAmount" : 323.72000000000003,
+          "currency" : "USD",
+          "baseFareCurrency" : "USD",
+          "totalPrice" : 376.60000000000002,
+          "constructionCurrency" : "USD",
+          "equivalentCurrency" : "USD",
+          "constructionAmount" : 323.72000000000003,
+          "baseFareAmount" : 323.72000000000003
+        },
+      "passengerInfo" : {
+        "passengerNumber" : 1,                          
+        "nonRefundable" : true,
+        "mealCode" : "B",
+        "cabinCode" : "Y",
+        "bookingCode" : "N",
+        "seatsAvailable" : 9,
+        "lastTicketDate" : "2019-05-16",
+        "eTicketable" : true
+        },
+      "id" : 10
+    }
+  ]
+}

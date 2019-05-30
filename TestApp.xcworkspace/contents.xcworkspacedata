@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Flights.intentdefinition">
+   </FileRef>
+   <FileRef
       location = "group:TestApp.xcodeproj">
    </FileRef>
    <FileRef
